@@ -7,9 +7,9 @@ import addressbook.interfaces.IMultipleAddressBook;
 
 public class MUltimpleAddressBookImplementations implements IMultipleAddressBook{
 
-	ArrayList<AddressBookMain> arList = new ArrayList<AddressBookMain>();
+	ArrayList< ArrayList<AddressBookMain>> arList = new ArrayList<ArrayList<AddressBookMain>>();
 	public int addNewBook(AddressBookMain book) {
-		arList.add(book);
+		//arList.add(book.main(null));
 		return arList.indexOf(book);
 	}
 
