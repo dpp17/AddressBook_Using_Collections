@@ -4,5 +4,6 @@ import addressbook.controller.AddressBookMain;
 
 public interface IMultipleAddressBook {
 
-	int addNewBook(AddressBookMain book);
+	int addNewBook(int index, AddressBookMain book);
+	void accessAddressBook(int index);
 }
