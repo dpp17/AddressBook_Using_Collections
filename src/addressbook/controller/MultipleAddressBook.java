@@ -32,6 +32,10 @@ public class MultipleAddressBook {
 			System.out.println(" Enter AddressBook ID 1:: ");
 			iBook.accessAddressBook(getInput.nextInt());
 			break;
+		case 3:
+			System.out.println(" Enter City:: ");
+			iBook.viewCityOrState(getInput.next());
+			break;
 		}
 		System.out.println(" Press 1:: Re-Visit Menu");
 		}while(getInput.nextInt() == 1);
